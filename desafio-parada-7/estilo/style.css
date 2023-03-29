@@ -1,0 +1,19 @@
+*{
+    margin: auto;
+    padding: 25px;   
+}
+table{
+    width: 600px;
+    height: 400px;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+th{
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(21, 94, 21);
+}
+td{
+    border: 1px solid black;
+}
