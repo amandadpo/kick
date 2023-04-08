@@ -1,10 +1,10 @@
 <h1> DesafioParada10 </h1>
 
 <p>
-Grupo 4:
-📌 Bianca M
-📌 Ingrid
-📌 Amanda
+Grupo 4: <br>
+📌 Bianca M <br>
+📌 Ingrid <br>
+📌 Amanda <br>
 📌 Natália Galiano
 </p>
 
