@@ -1,0 +1,102 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../img/pexels-polina-tankilevitch-4109743.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#main{
+    margin: auto;
+    width: 80%;
+    background-color: rgba(255, 255, 224, 0.781);
+    border-radius: 10px;
+}
+#header h1{
+    text-align: center;
+    border-bottom: 2px solid rgb(94, 70, 18);
+    padding: 5px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.219);
+}
+
+#nav{
+    cursor: pointer;
+    height: 50px; 
+}
+#nav ul, #menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden; 
+}
+#nav li{
+    float: left;  
+}
+#nav a{
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;    
+}
+#nav a:hover{
+    background-color: rgb(58, 43, 11);
+    color: white;
+}
+#content {
+    display: inline-block;
+    padding: 20px;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+#content p{
+    text-align: justify;
+}
+#content img{
+    width: 80%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 7px 7px rgb(0 0 0 / 19%);
+    border-radius: 10px;
+}
+#content h2{
+    text-align: center; 
+    padding: 30px;  
+}
+#content ul{
+    list-style-type: none;
+    list-style-position: inside;
+    columns: 2;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid black ;
+    padding: 2px;
+}
+@media screen and (max-width: 1440px){
+    #main{
+        width: 80%;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        margin: 0px;
+        padding: 0px;
+        background-image: none;
+    }
+    #main{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        font-size: 14px;
+    }
+    #content{
+        display: block;
+    }
+}
