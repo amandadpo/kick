@@ -62,15 +62,94 @@ h1{
     width: 300px;
     padding: 10px;
 }
+.box_title{
+    background-color: #41BBD9;
+    text-align: center;
+    align-items: center;
+    font-family: 'Kalam', cursive;
+    font-size: 17px;
+}
+.box_title h3{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.box_title p{
+    padding: 0px ;
+    margin: 0px;
+}
+#curiosities{
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+}
+
+.text{
+    columns: 2;
+    padding: 20px; 
+}
+
+section img{
+    height: 200px;
+    width: 300px;
+      
+}
+.text h3{
+    text-align: center;
+    background-color: #FBAF00;
+
+}
 
 
-  @media screen and (max-width: 600px) {
+.brazil{
+    columns: 2;
+    padding: 20px;
+}
+.brazil ul{
+    columns: 2;
+    text-align: center;
+    border: 1px solid black;
+
+    
+}
+.brazil li{
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+spam{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+
+
+footer{
+    background-color: #17255A;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
     .slide img {
         height: 300px;
         width: 400px;
         margin: 10px;
     }
+    .box_title{
+        font-size: 14px;  
+        flex-direction: row;
+    }
+    .text{
+        flex-wrap: wrap;
+        flex-direction: column;
+        columns: 1;
+    }
+
 }
+
 
 
 @media screen and (max-width: 1200px) {
@@ -79,9 +158,6 @@ h1{
         float: right;
         display: block;
     } 
-}
-
-@media screen and (max-width: 1200px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon{
         position: absolute;
@@ -94,4 +170,5 @@ h1{
         text-align: left;
         
     }
+    
 }
