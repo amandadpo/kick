@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Kalam:wght@300&family=Lato:wght@300;400&family=Roboto+Mono:wght@700&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/style_index.css">
+    <title>Maravilhas do Brasil</title>
+    <style>
+        #slide{
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="title">
+        <img src="img/1.png" alt="logo">
+        <h1> - Maravilhas do Brasil - </h1>
+    </div>
+
+    <nav class="topnav" id="myTopnav">
+
+        <a href="index.html">Home</a>
+
+        <a href="regiao_sul.html">Região Sul</a> 
+
+        <a href="regiao_sudeste.html">Região Sudeste</a>
+
+        <a href="regiao_centroeste.html">Região Centro Oeste</a>
+
+        <a href="regiao_nordeste.html">Região Nordeste</a>
+
+        <a href="regiao_norte.html">Região Norte</a>
+
+        <a href="curiosidades.html">Curiosidades</a> 
+
+        <a href="galeria_de_fotos.html">Galeria de fotos</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="bi bi-list"></i>
+        </a>
+    </nav>
+
+    <div id="slide">
+        <img src="galeria/1.jpeg" alt="RJ">
+        <img src="galeria/2.jpeg" alt="CE">
+        <img src="galeria/3.jpeg" alt="AL">
+        <img src="galeria/4.jpeg" alt="AL">
+        <img src="galeria/5.jpeg" alt="AL">
+        <img src="galeria/6.jpeg" alt="BA">
+        <img src="galeria/7.jpeg" alt="RJ">
+        <img src="galeria/8.jpeg" alt="BA">
+        <img src="galeria/9.jpeg" alt="BA">
+        <img src="galeria/10.jpeg" alt="BA">
+        <img src="galeria/11.jpeg" alt="BA">
+        <img src="galeria/12.jpeg" alt="RJ">
+    </div>
+
+    <footer>
+        Desenvolvido por Amanda de Oliveira ✈️
+    </footer>
+
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myTopnav");
+            if(x.className === "topnav"){
+                x.className += " responsive";
+            } 
+            else{
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>
