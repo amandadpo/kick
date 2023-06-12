@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="age">Idade:</label>
+        <input type="number" id="age" name="age" required>
+        <br><br>
+
+        <label for="language">Idiomas:</label>
+        <input type="radio" id="english" name="english" value="english">
+        <label for="english">Inglês</label>
+        <input type="radio" id="portuguese" name="portuguese" value="portuguese">
+        <label for="portuguese">Português</label>
+        <input type="radio" id="spanish" name="spanish" value="spanish">
+        <label for="spanish">Espanhol</label>
+        <br><br>
+
+        <label for="country">País:</label>
+        <select id="country" name="country" required>
+        <option value="">Selecione um país</option>
+        <option value="br">Brasil</option>
+        <option value="us">Estados Unidos</option>
+        <option value="ca">Canadá</option>
+        <option value="jp">Japão</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+
+<script>
+    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    if(email.value.match(mailformat)){
+        
+    }else{
+        alert('email está inválido')
+        email.focus()
+        return false
+    }
+</script>
