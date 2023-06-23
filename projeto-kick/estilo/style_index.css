@@ -20,7 +20,7 @@ body{
     margin:auto;
 }
 
-h1{
+#title h1{
     align-items: center;
     text-align: center;
     font-size: 20px;
