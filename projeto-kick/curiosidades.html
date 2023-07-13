@@ -21,6 +21,10 @@
             margin: 0px;   
         }
 
+        #main{
+            width: 85%;
+        }
+
         h2{
             text-align: center;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.219); 
@@ -32,18 +36,27 @@
             padding-right: 40px;
             margin: 15px;
             border-radius: 7px;
-            box-shadow: 0px 7px 7px rgb(0 0 0 / 19%);
-            
+            box-shadow: 0px 7px 7px rgb(0 0 0 / 19%); 
         }
 
+        @media screen and (max-width: 500px) {
+            
+            body{
+                background-image: none;
+                background-color: #41bbd94b; 
+            }
 
+            #main{
+                width: 100%;
+            }
+        }
     </style>
     <title>Maravilhas do Brasil</title>
 
 </head>
 <body>
     <div id="title">
-        <img src="img/1.png" alt="logo">
+        <img src="img/logo.png" alt="logo">
         <h1> - Maravilhas do Brasil - </h1>
     </div>
 
@@ -71,9 +84,9 @@
     </nav>
 
     <div id="main">
-
         <section id="curiosities">
             <h2>Curiosidades sobre o Brasil</h2>
+
             <ul>
                 <li>O Brasil é o maior país da América Latina, com uma área de 8,5 milhões de km² e uma população de mais de 211 milhões de habitantes.</li>
                 <li>A língua oficial do Brasil é o português.</li>
@@ -104,7 +117,6 @@
                 <li>Amazônia: A floresta Amazônica é uma das regiões mais ricas em biodiversidade do mundo, com inúmeras espécies de plantas únicas. Algumas das plantas mais conhecidas são a seringueira, o cacau, o guaraná, a castanha-do-pará, o açaí e o cupuaçu.</li>
                 <li>Mata Atlântica: A Mata Atlântica é uma das florestas mais ameaçadas do mundo, mas ainda abriga muitas espécies de plantas únicas. Algumas das plantas mais conhecidas são a bromélia, a orquídea, a palmeira-juçara e a erva-mate.</li>
                 <li>Caatinga: A Caatinga é uma região semiárida que abriga muitas espécies de cactos e outras plantas resistentes à seca. Algumas das plantas mais conhecidas são o mandacaru, o xique-xique, a jurema e a aroeira.</li>
-                
             </ul>
 
             <h2>Fauna</h2>
@@ -115,9 +127,7 @@
                 <li>Mata Atlântica: A Mata Atlântica abriga muitos animais ameaçados de extinção, como o mico-leão-dourado, o muriqui, o papagaio-chauá e a lontra.</li>
             </ul>
         </section>
-        
     </div>    
-
 
     <script>
         function myFunction(){
